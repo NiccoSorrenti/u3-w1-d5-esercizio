@@ -10,7 +10,7 @@ const MyNavbar = function () {
   return (
     <>
       <Navbar expand="lg" bg="dark" data-bs-theme="dark">
-        <Container>
+        <Container className="container-fluid">
           <img src="./src/assets/logo.png" style={{ width: '10%' }} alt="" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

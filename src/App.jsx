@@ -3,6 +3,7 @@ import './App.css';
 import MyNavbar from './components/MyNavbar';
 import MyMain from './components/MyMain';
 import MyGallery from './components/MyGallery';
+import MyFooter from './components/MyFooter';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <MyNavbar />
       <MyMain />
       <MyGallery />
+      <MyFooter />
     </>
   );
 }
