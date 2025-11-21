@@ -45,7 +45,7 @@ class MyGallery extends Component {
             className="mt-3 overflow-auto d-flex"
           >
             {this.state.films.map((film) => {
-              return <SingleFilm film={film} />;
+              return <SingleFilm key={film.imdbID} film={film} />;
             })}
           </Container>
         </Row>

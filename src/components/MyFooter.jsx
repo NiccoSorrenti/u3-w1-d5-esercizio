@@ -40,12 +40,12 @@ const MyFooter = function () {
           </Col>
         </Row>
         <Row>
-          <p
+          <button
             style={{ width: '11%' }}
-            className="text-secondary border border-secondary d-flex"
+            className="text-secondary bg-dark border border-secondary d-flex"
           >
             Service Code
-          </p>
+          </button>
         </Row>
         <Row className="mt-3">
           <p className="text-secondary fs-6">&copy; 1997-2023 Netflix, Inc.</p>
