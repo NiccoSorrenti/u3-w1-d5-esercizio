@@ -20,10 +20,6 @@ const MyMain = function () {
               <NavDropdown.Item href="#action/3.1">Comedy</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Drama</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Thriller</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Container>

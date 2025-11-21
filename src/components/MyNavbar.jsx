@@ -11,7 +11,7 @@ const MyNavbar = function () {
     <>
       <Navbar expand="lg" bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <img src="./src/assets/logo.png" style={{ width: '10%' }} alt="" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
