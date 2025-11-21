@@ -10,8 +10,10 @@ const MyNavbar = function () {
   return (
     <>
       <Navbar expand="lg" bg="dark" data-bs-theme="dark">
-        <Container className="container-fluid">
-          <img src="./src/assets/logo.png" style={{ width: '10%' }} alt="" />
+        <Container fluid className="m-0">
+          <Navbar.Brand>
+            <img src="./src/assets/logo.png" width={'100'} alt="" />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

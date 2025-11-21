@@ -9,7 +9,7 @@ const MyMain = function () {
   return (
     <>
       <Navbar bg="dark" data-bs-theme="dark" expand="lg">
-        <Container>
+        <Container fluid className="m-0">
           <Navbar.Brand href="#home">TV Shows</Navbar.Brand>
 
           <Nav className="me-auto">
