@@ -21,7 +21,7 @@ const MyNavbar = function () {
               <Link to="/" className="nav-link">
                 Home
               </Link>
-              <Link to="/TvShows/Harry Potter" className="nav-link">
+              <Link to="/TvShows/Cars" className="nav-link">
                 Tv Shows
               </Link>
               {/* <Nav.Link href="#link">TV Shows</Nav.Link> */}
