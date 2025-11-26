@@ -5,6 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BsSearch } from 'react-icons/bs';
 import { BsBell } from 'react-icons/bs';
 import { BsPersonCircle } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const MyNavbar = function () {
   return (
@@ -17,10 +18,13 @@ const MyNavbar = function () {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home" active>
+              <Link to="/" className="nav-link">
                 Home
-              </Nav.Link>
-              <Nav.Link href="#link">TV Shows</Nav.Link>
+              </Link>
+              <Link to="/TvShows/Harry Potter" className="nav-link">
+                Tv Shows
+              </Link>
+              {/* <Nav.Link href="#link">TV Shows</Nav.Link> */}
               <Nav.Link href="#link">Movies</Nav.Link>
               <Nav.Link href="#link">Recently Added</Nav.Link>
               <Nav.Link href="#link">My List</Nav.Link>
