@@ -4,6 +4,7 @@ import SingleFilm from './SingleFilm';
 import { useParams } from 'react-router-dom';
 import MyNavbar from './MyNavbar';
 import MyFooter from './MyFooter';
+import MyMain from './MyMain';
 
 const TvShows = function () {
   const [films, setFilms] = useState([]);
@@ -44,8 +45,8 @@ const TvShows = function () {
   return (
     <>
       <MyNavbar />
-
-      <Container className="vh-100">
+      <MyMain />
+      <Container fluid className="vh-100">
         <Row className="g-3 mt-3 overflow-auto">
           <Col
             bg="dark"
